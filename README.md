@@ -1,6 +1,6 @@
 # PL/I on IBM z/OS — Theory and Hands-on Labs
 
-Hands-on PL/I learning repository built on IBM z/OS ADCD 1.11 under Hercules.
+Hands-on PL/I learning repository built around IBM z/OS ADCD 1.11 and a zPDT-oriented mainframe laboratory environment.
 
 The course follows the supplied PL/I tutorial videos as the primary learning sequence and uses IBM documentation to validate, complete, and contextualize the material.
 
@@ -9,11 +9,12 @@ The course follows the supplied PL/I tutorial videos as the primary learning seq
 | Lab | Topic | Status |
 |---|---|---|
 | [01](labs/01-pli-fundamentals-compile-bind-run/) | PL/I fundamentals, compiler discovery, compile → bind → run | ✅ Complete |
+| [02](labs/02-pli-coding-format-identifiers-character-set/) | Coding format, margins, labels, identifiers and character set | ✅ Complete |
 
 ## Environment
 
 - IBM z/OS ADCD 1.11
-- Hercules
+- zPDT-oriented laboratory environment
 - TSO/ISPF
 - SDSF/JES2
 - Enterprise PL/I for z/OS generation 3.9
@@ -34,7 +35,7 @@ Each lab combines:
 
 ## Part of the z/OS Engineering Laboratory
 
-This repository is a specialized component of the broader **z/OS Engineering Laboratory** built on z/OS ADCD 1.11 / Hercules.
+This repository is a specialized component of the broader z/OS engineering laboratory.
 
 ### Master architecture
 
@@ -45,4 +46,3 @@ https://github.com/P-dot/zos-adcd-hercules-engineering-lab
 ```text
 Build -> Execute -> Observe -> Diagnose -> Correct -> Validate -> Document
 ```
-
