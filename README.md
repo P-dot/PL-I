@@ -29,3 +29,20 @@ Each lab combines:
 2. validation against IBM documentation;
 3. execution on the actual ADCD system;
 4. JCL, source, evidence, return-code analysis, and troubleshooting.
+
+---
+
+## Part of the z/OS Engineering Laboratory
+
+This repository is a specialized component of the broader **z/OS Engineering Laboratory** built on z/OS ADCD 1.11 / Hercules.
+
+### Master architecture
+
+https://github.com/P-dot/zos-adcd-hercules-engineering-lab
+
+### Engineering methodology
+
+```text
+Build -> Execute -> Observe -> Diagnose -> Correct -> Validate -> Document
+```
+
